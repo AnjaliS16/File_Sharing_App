@@ -1,0 +1,27 @@
+{
+  "name": "internet-map",
+  "version": "1.0.0",
+  "description": "this is a project of internet map",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "anjali",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.9.4",
+    "nodemailer": "^6.9.13",
+    "nodemon": "^3.1.0",
+    "sequelize": "^6.37.3",
+    "sib-api-v3-sdk": "^8.5.0",
+    "uuid": "^9.0.1"
+  }
+}
